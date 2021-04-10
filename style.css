@@ -1,0 +1,17 @@
+.section{display: grid;grid-template-columns: 300px 1fr;grid-template-rows: 100px 1fr;}
+ul{list-style-type: none; padding: 10px;}
+ul li{border: 1px solid black; width: 250px; border-collapse: initial; padding: 10px; cursor: pointer; }
+form input , textarea{width: 80%; height: 40px; margin-top: 15px; padding: 4px; font-size: 20px; border-radius: 4px; outline: none;}
+ul li:hover{background-color: bisque;}
+textarea{height: 120px;}
+.head{background-color: cadetblue;} .head h1{text-align: center; margin-bottom: 10px; padding: 10px;}
+#add-course ,#view-courses ,#contact ,#about{display: none;}
+.conform input , .conform textarea{width: 500px; height: 40px; border-radius: 4px; outline: none;}
+.conform textarea{height: 120px;}
+.about-info{display: flex; position: relative;}
+.social-icon{right: 20px; position: absolute;}
+.address{float: left;}
+.social-icon a{font-size: 26px; margin-left: 10px;}
+hr{width: 120px;color: red;}
+h6{color: green;}
+a{text-decoration: none; color: white; list-style-type: none;}
